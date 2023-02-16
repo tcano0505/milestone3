@@ -1,0 +1,24 @@
+
+@media print{
+    .screen_only{
+        display: none;
+    }
+}
+
+@media (max-width:670px){
+    body{
+    background-color: #e1b382;
+    }
+}
+
+@media (min-width:671px) and (max-width:818px){
+    body{
+        background-color: #ffdc6a;
+    }
+}
+
+@media (min-width:819px){
+    body{
+        background-color: #fceed1;
+    }
+}
